@@ -1,0 +1,18 @@
+DATALOADER:
+  batch_size: 1600
+  poison_path: None
+  poison_gen: standard
+EXP:
+  DATASET: medpt
+  EXP_ID: intra_fc_em_gen
+  LOSS_NAME: chamf_standard_ce
+  MODEL_NAME: pointnet
+  TASK: cls
+  poison_type: FC_EM
+TRAIN:
+  num_epochs: 200
+AUG:
+  NAME: chamf_standard_fc_pgd
+EXP_EXTRA:
+  get_feature: default
+POISON: FC_EM

@@ -1,0 +1,17 @@
+DATALOADER:
+  batch_size: 32
+  poison_path: None
+  poison_gen: standard
+EXP:
+  DATASET: modelnet40_dgcnn
+  EXP_ID: ce_em_gen
+  LOSS_NAME: cross_entropy
+  MODEL_NAME: pointnet
+  TASK: cls
+  class_wise: False
+  poison_type: EM
+TRAIN:
+  num_epochs: 200
+AUG:
+  NAME: poison_pgd
+POISON: EM

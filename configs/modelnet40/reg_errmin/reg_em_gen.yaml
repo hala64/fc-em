@@ -1,0 +1,16 @@
+DATALOADER:
+  batch_size: 32
+  poison_path: None
+  poison_gen : standard
+EXP:
+  DATASET: modelnet40_dgcnn
+  EXP_ID: reg_em_gen
+  LOSS_NAME: chamf_ce
+  MODEL_NAME: pointnet
+  TASK: cls
+  poison_type: REG_EM
+TRAIN:
+  num_epochs: 200
+AUG:
+  NAME: chamf_pgd
+POISON: REG_EM

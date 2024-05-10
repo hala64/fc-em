@@ -1,0 +1,12 @@
+DATALOADER:
+  batch_size: 32
+  poison_path: './runs/reg_em_gen'
+EXP:
+  DATASET: modelnet40_dgcnn
+  EXP_ID: reg_em_eval
+  LOSS_NAME: cross_entropy
+  MODEL_NAME: pointnet
+  TASK: cls_trans
+  poison_type: REG_EM
+TRAIN:
+  num_epochs: 200

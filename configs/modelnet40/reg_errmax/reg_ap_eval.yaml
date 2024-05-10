@@ -1,0 +1,13 @@
+DATALOADER:
+  batch_size: 32
+  poison_path: './runs/reg_ap_gen'
+  poison_gen: None
+EXP:
+  DATASET: modelnet40_dgcnn
+  EXP_ID: reg_ap_eval
+  LOSS_NAME: cross_entropy
+  MODEL_NAME: pointnet
+  TASK: cls_trans
+  poison_type: REG_AP
+TRAIN:
+  num_epochs: 200

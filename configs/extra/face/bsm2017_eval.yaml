@@ -1,0 +1,13 @@
+DATALOADER:
+  batch_size: 32
+  poison_path: './runs/bsm2017_fc_em_gen'
+  poison_gen: None
+EXP:
+  DATASET: bsm2017
+  EXP_ID: bsm2017_fc_em_eval
+  LOSS_NAME: cross_entropy
+  MODEL_NAME: pointnet
+  TASK: cls_trans
+  poison_type: FC_EM
+TRAIN:
+  num_epochs: 200

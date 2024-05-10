@@ -1,0 +1,13 @@
+DATALOADER:
+  batch_size: 32
+  poison_path:  './runs/scan_fc_em_gen'
+  poison_gen: None
+EXP:
+  DATASET: scanobjectnn
+  EXP_ID: scan_fc_em_eval
+  LOSS_NAME: chamf_standard_ce
+  MODEL_NAME: pointnet
+  TASK: cls
+  poison_type: FC_EM
+TRAIN:
+  num_epochs: 200

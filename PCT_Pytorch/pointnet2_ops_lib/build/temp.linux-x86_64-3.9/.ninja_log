@@ -1,0 +1,10 @@
+# ninja log v5
+1	25217	1697794167901161716	/data/zhuyifan/modelnet40a/PCT_Pytorch/pointnet2_ops_lib/build/temp.linux-x86_64-3.9/pointnet2_ops/_ext-src/src/interpolate.o	620f59e8977d764b
+0	25454	1697794168137161644	/data/zhuyifan/modelnet40a/PCT_Pytorch/pointnet2_ops_lib/build/temp.linux-x86_64-3.9/pointnet2_ops/_ext-src/src/group_points.o	eb30860e418f393e
+1	26001	1697794168685161475	/data/zhuyifan/modelnet40a/PCT_Pytorch/pointnet2_ops_lib/build/temp.linux-x86_64-3.9/pointnet2_ops/_ext-src/src/sampling.o	7b2570ec81eb4e51
+0	26115	1697794168789161443	/data/zhuyifan/modelnet40a/PCT_Pytorch/pointnet2_ops_lib/build/temp.linux-x86_64-3.9/pointnet2_ops/_ext-src/src/ball_query.o	b599eed68944166f
+0	26160	1697794168841161427	/data/zhuyifan/modelnet40a/PCT_Pytorch/pointnet2_ops_lib/build/temp.linux-x86_64-3.9/pointnet2_ops/_ext-src/src/bindings.o	1bb4f2df276f906e
+0	68358	1697794211025149614	/data/zhuyifan/modelnet40a/PCT_Pytorch/pointnet2_ops_lib/build/temp.linux-x86_64-3.9/pointnet2_ops/_ext-src/src/ball_query_gpu.o	274928a2f4957e6
+0	68933	1697794211601149469	/data/zhuyifan/modelnet40a/PCT_Pytorch/pointnet2_ops_lib/build/temp.linux-x86_64-3.9/pointnet2_ops/_ext-src/src/group_points_gpu.o	1dca37f459be021a
+1	69995	1697794212661149202	/data/zhuyifan/modelnet40a/PCT_Pytorch/pointnet2_ops_lib/build/temp.linux-x86_64-3.9/pointnet2_ops/_ext-src/src/interpolate_gpu.o	fee2464abb639767
+1	72869	1697794215533148485	/data/zhuyifan/modelnet40a/PCT_Pytorch/pointnet2_ops_lib/build/temp.linux-x86_64-3.9/pointnet2_ops/_ext-src/src/sampling_gpu.o	dfb89c9246ebf273

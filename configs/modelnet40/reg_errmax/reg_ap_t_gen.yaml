@@ -1,0 +1,16 @@
+DATALOADER:
+  batch_size: 128
+  poison_path: None
+  poison_gen: standard
+EXP:
+  DATASET: modelnet40_dgcnn
+  EXP_ID: reg_ap_t_gen
+  LOSS_NAME: cross_entropy
+  MODEL_NAME: pointnet
+  TASK: cls
+  poison_type: REG_AP_T
+TRAIN:
+  num_epochs: 100
+AUG:
+  NAME: chamf_pgd
+POISON: REG_AP_T
